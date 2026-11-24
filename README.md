@@ -2,26 +2,26 @@
 
 # Xneon App Store
 
-A GitHub-powered app store for **Xneon OS**, delivering apps and releases directly from GitHub.
+Pre-compiled GitHub releases and open-source licensing for **Xneon OS**.
 
 </div>
 
 ## Overview
 
-**Xneon App Store** installs apps directly from **GitHub** (such as GitHub Releases and repositories) for **Xneon OS**. It is designed around a Rust-first Linux experience - prioritizing native Rust apps and games while keeping optional compatibility layers (like Wine/Proton) and developer tools separated when needed.
+**Xneon App Store** is a DIY, GitHub-backed app store for **Xneon OS**. Every app available through the store is fetched from **GitHub**, ships **pre-compiled** for straightforward execution on Linux, and includes its **license** so users know the exact terms of what they are running.
 
 ## How It Works
 
-1. **Browse or Search:** Find available apps and releases listed for Xneon OS.
-2. **Fetch from GitHub:** Download release assets, packages, or builds directly from GitHub.
-3. **Install & Launch:** Set up the app on your system without needing to build from source yourself.
+1. **Discover:** Browse or search apps sourced from GitHub for **Xneon OS**.
+2. **Verify & Fetch:** Pull pre-compiled release binaries/archives and license details directly from GitHub.
+3. **Run:** Launch pre-built apps cleanly on your system—keeping **Rust** front-and-center while leaving **Wine/Proton** and developer toolchains optional.
 
-## Categories
+## What You Get
 
-* **Native Rust Apps & Games:** Pre-compiled Rust tools, desktop apps, and games built for Linux.
-* **Optional Add-Ons:** Extras such as Wine/Proton compatibility tools or optional development packages.
-* **Community & Open-Source Apps:** Additional software distributed via GitHub.
+* **Pre-Compiled GitHub Releases:** Ready-to-run Linux binaries/packages fetched from GitHub rather than forcing users to compile everything manually.
+* **Included License Transparency:** Clear license info shipped/associated with each release so open-source terms stay visible and verifiable.
+* **DIY Linux Control:** Built around **Xneon OS**'s modular philosophy—native Rust apps and games first, optional add-ons only when you want them.
 
-## Project Status
+## License
 
-Early development—core catalog, GitHub release fetching, and Xneon OS integration are actively taking shape.
+This repository includes its own license file (`LICENSE`)—and apps listed or distributed through **Xneon App Store** carry their respective licenses alongside their releases.
